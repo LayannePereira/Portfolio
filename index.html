@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="./assets/img/ola.gif" type="image/x-icon">
+
+    <!--=============== REMIX ICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+    <title>Mini portfolio website</title>
+</head>
+
+<body>
+    <!--=============== HEADER PROFILE ===============-->
+    <header class="profile container">
+        <!-- Theme Button-->
+        <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+        <div class="profile__container grid">
+            <div class="profile__data">
+                <div class="profile__border">
+                    <div class="profile__perfil">
+
+                        <img src="assets/img/Perfill.png" alt="foto perfil">
+                    </div>
+                </div>
+
+                <h2 class="profile__name">Layanne Pereira</h2>
+                <h3 class="profile__profession">Full Stack Web Devoluper, Cyber Security Analyst</h3>
+
+                <ul class="profile__social">
+                    <a href="https://www.instagram.com/laay_pereiira/" target="_blank" class="profile__social-link">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/feed/" target="_blank" class="profile__social-link">
+                        <i class="ri-linkedin-box-line"></i>
+                    </a>
+                    <a href="https://github.com/LayannePereira" target="_blank" class="profile__social-link">
+                        <i class="ri-github-line"></i>
+                    </a>
+                </ul>
+            </div>
+
+            <div class="profile__info grid">
+                <div class="profile__info-group">
+                    <h3 class="profile__info-number">1</h3>
+                    <p class="profile__info-description">
+                        Years of <br> work
+                    </p>
+                </div>
+                <div class="profile__info-group">
+                    <h3 class="profile__info-number">7</h3>
+                    <p class="profile__info-description">
+                        Completed <br> Projects
+                    </p>
+                </div>
+                <div class="profile__info-group">
+                    <h3 class="profile__info-number">1</h3>
+                    <p class="profile__info-description">
+                        Satisfied <br> customers
+                    </p>
+                </div>
+            </div>
+
+            <div class="profile__buttons">
+                <a download="" href="assets/pdf/CV.LAY 1.0.pdf" class="button">
+                    Download CV <i class="ri-download-line"></i>
+                </a>
+
+                <div class="profile__buttons-small">
+                    <a href="https://api.whatsapp.com/send?phone=5511976871897" target="_blank"
+                        class="button button__small button__gray">
+                        <i class="ri-whatsapp-line"></i>
+                    </a>
+
+                    <a href="mailto:layannepereiraa28@gmail.com" target="_blank"
+                        class="button button__small button__gray">
+                        <i class="ri-mail-send-line"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <section class="filters container">
+            <!--=============== FILTERS TABS ===============-->
+            <ul class="filters__content">
+                <button class="filters__button filter-tab-active" data-target="#projects">
+                    Projects
+                </button>
+                <button class="filters__button " data-target="#skills">
+                    SKILLS
+                </button>
+            </ul>
+
+            <div class="filters__sections">
+                <!--=============== PROJECTS ===============-->
+                <div class="projects__content grid filters__active " data-content id="projects">
+                    <article class="projects__card">
+
+
+                        <img src="assets/img/VirtualBox_Kali Linux.png" alt="Foto ilustrativa do projeto AdaTech"
+                            class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Web</span>
+                                <h3 class="projects__title">Creating a Phishing on Kali Linux </h3>
+
+                                <a href="https://github.com/LayannePereira/CyberSecurity"
+                                    class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+
+
+                        <img src="assets/img/159186354-6669cdc0-36ed-424d-a114-52b42a5199bb.jpg" alt="Foto ilustrativa do projeto AdaTech"
+                            class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Web</span>
+                                <h3 class="projects__title">Healthy Day </h3>
+
+                                <a href="https://github.com/LayannePereira/HealthyDay"
+                                    class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card ">
+                        <img src="assets/img/memory.jpeg" alt="Foto ilustrativa do projeto AdaTech"
+                            class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">web</span>
+                                <h3 class="projects__title">Memory-Game</h3>
+                                <a href="https://github.com/LayannePereira/Memory-Game"
+                                    class="projects__button button button__small" target="_blank">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card ">
+                        <img src="assets/img/dsmeta.jpeg" alt="Foto ilustrativa do projeto AdaTech"
+                            class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">web</span>
+                                <h3 class="projects__title">DsMeta</h3>
+                                <a href="hhttps://github.com/LayannePereira/DSMeta"
+                                    class="projects__button button button__small" target="_blank">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card ">
+                        <img src="assets/img/dsmovie.jpeg" alt="Foto ilustrativa do projeto AdaTech"
+                            class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">web</span>
+                                <h3 class="projects__title">DsMovie</h3>
+                                <a href="https://github.com/LayannePereira/dsmovie"
+                                    class="projects__button button button__small" target="_blank">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card ">
+                        <img src="assets/img/insta.jpeg" alt="Foto ilustrativa do projeto AdaTech"
+                            class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">web</span>
+                                <h3 class="projects__title">Recriando Interface do Instagram</h3>
+                                <a href="https://github.com/LayannePereira/Interface_instagram"
+                                    class="projects__button button button__small" target="_blank">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card ">
+                        <img src="assets/img/Projeto adatech.jpeg" alt="Foto ilustrativa do projeto AdaTech"
+                            class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Web</span>
+                                <h3 class="projects__title">AdaTech</h3>
+                                <a href="https://github.com/AdaTech-Projeto-Integrador"
+                                    class="projects__button button button__small" target="_blank">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <!--=============== SKILLS ===============-->
+                <div class="skills__content grid " data-content id="skills">
+                    <div class="skills__area">
+                        <h3 class="skills__title">Frontend Developer</h3>
+
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">HTML</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">CSS</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">JavaScript</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">React</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Bootstrap</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Git/Github</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills__area">
+                        <h3 class="skills__title">Backend Developer</h3>
+
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Angular</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">MySQL</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Java</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Python</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Node Js</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Spring Framework</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills__area">
+                        <h3 class="skills__title">CyberSecurity</h3>
+
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Pentest</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">OSINT</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Varreduras de Rede</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Exploração</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Criando Ransomware</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer container">
+        <span class="footer__copy">
+            &#169; <a href="https://github.com/LayannePereira">Layanne Pereira</a> <br> All rigths reserved.
+        </span>
+    </footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
