@@ -20,7 +20,5 @@
 ### Findings
 
 ![Alt text](./assets/img/Captura%20da%20Web_31-12-2022_16527_127.0.0.1.jpeg "screenshot")
- <h2 id=site> Visite o site </h2>
-https://layannepereira.github.io/Portfolio/
 
 ---
