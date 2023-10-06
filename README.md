@@ -19,6 +19,6 @@
 
 ### Findings
 
-![Alt text](./assets/img/CapturadaWeb_19-5-2023_193932_layannepereira.github.io.jpeg "screenshot")
+![Alt text](./assets/img/Site-pronto.png "screenshot")
 
 ---
